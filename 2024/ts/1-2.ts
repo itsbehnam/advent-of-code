@@ -15,19 +15,19 @@ lines.forEach(line => {
     }
 })
 
-const hashmap: number[] = [];
+const frequencyArray: number[] = [];
 let sum: number = 0;
 
 ListB.forEach( num => {
-    if (!hashmap[num]) {
-        hashmap[num] = 0;
+    if (!frequencyArray[num]) {
+        frequencyArray[num] = 0;
     }
-    hashmap[num]++;
+    frequencyArray[num]++;
 })
 
 ListA.forEach( num => {
-    if (hashmap[num]) {
-        sum += num * hashmap[num];
+    if (frequencyArray[num]) {
+        sum += num * frequencyArray[num];
     }
 })
 
