@@ -4,7 +4,7 @@ import re
 
 # Not complexity efficient, can at least reduce number of loops
 # I don't like using .replace() here. Replace replace.
-with open('../input/1.txt', 'r') as input:
+with open('../inputs/1.txt', 'r') as input:
     lines = [line.replace('one', 'o1e')
         .replace('two', 't2o')
         .replace('three', 't3r')

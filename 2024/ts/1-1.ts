@@ -1,7 +1,7 @@
 import * as fs from "node:fs"
 
 // TODO: extract method
-const input = fs.readFileSync('../inputs/1-1.txt', 'utf-8');
+const input = fs.readFileSync('../inputs/1.txt', 'utf-8');
 const lines = input.split('\n');
 
 const ListA: Array<number> = []
